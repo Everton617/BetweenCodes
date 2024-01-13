@@ -63,17 +63,16 @@
       border: 0px solid #212241;
       justify-content: center;
       width: 100%;
+      height: 800px;
   }
 
   .area-modal img{
-    height: 800px;
-    
+   
+    object-fit: cover;
    
   }
 }
 
 @media(max-width:600px){
-  .area-modal img{
-    height: 700px;
-  }
+  
 }
