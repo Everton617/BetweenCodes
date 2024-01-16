@@ -14,14 +14,14 @@ function Topbar() {
     };
 
     return (
-        <div className="topbar">
+        <div className="topbar" id='topbar'>
             <div className='nav'>
                 <div className='navbar'>
                     <div className="logo"><IoCodeSharp /><a href="#">Between Codes</a><IoCodeSlash /></div>
                     <ul className='links'>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Contatos</a></li>
-                        <li><a href="">Orçamentos</a></li>
+                        <li><a href="#topbar" target='blank'>Home</a></li>
+                        <li><a href="#footer" target='blank'>Contatos</a></li>
+                        <li><a href="https://wa.me/81988937475" target='blank'>Orçamentos</a></li>
 
                     </ul>
 
@@ -35,9 +35,9 @@ function Topbar() {
                 </div>
 
                 <div className={`dropdown_menu ${isMenuOpen ? 'open' : ''}`}>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Contatos</a></li>
-                    <li><a href="">Orçamentos</a></li>
+                    <li><a href="#topbar" target='blank'>Home</a></li>
+                    <li><a href="#footer"target='blank'>Contatos</a></li>
+                    <li><a href="https://wa.me/988937475" target='blank'>Orçamentos</a></li>
 
                 </div>
             </div>

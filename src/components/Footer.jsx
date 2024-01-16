@@ -11,7 +11,7 @@ function Footer() {
 
 
     return (
-        <div className="conteiner-footer">
+        <div className="conteiner-footer" id='footer'>
             <div className="area-footer">
                 <img src={logo} alt="" />
             </div>
