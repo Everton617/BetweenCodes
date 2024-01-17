@@ -21,7 +21,7 @@ function Topbar() {
                     <ul className='links'>
                         <li><a href="#topbar" target='blank'>Home</a></li>
                         <li><a href="#footer" target='blank'>Contatos</a></li>
-                        <li><a href="https://wa.me/81988937475" target='blank'>Orçamentos</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5581997122632" target='blank'>Orçamentos</a></li>
 
                     </ul>
 
@@ -37,7 +37,7 @@ function Topbar() {
                 <div className={`dropdown_menu ${isMenuOpen ? 'open' : ''}`}>
                     <li><a href="#topbar" target='blank'>Home</a></li>
                     <li><a href="#footer"target='blank'>Contatos</a></li>
-                    <li><a href="https://wa.me/988937475" target='blank'>Orçamentos</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5581997122632" target='blank'>Orçamentos</a></li>
 
                 </div>
             </div>

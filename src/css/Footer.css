@@ -34,6 +34,9 @@
     font-size: 20px;
 }
 
+.content-box span a{
+    color: rgb(54, 42, 105);
+}
 
 .area-contanto{
     text-align: center;

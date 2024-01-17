@@ -19,17 +19,21 @@ function Footer() {
                 <div className='area-contanto'>
                     <h4>Entre em Contato</h4>
                     <div className="box-contato">
-                        <p>Telefone: <span>+55 (81) 98893-7475</span></p> <p>Email: <span>codesbetween@gmail.com</span></p>
+                        <p>Telefone: <span>+55 (81) 99712-2632</span></p> <p>Email: <span>codesbetween@gmail.com</span></p>
                     </div>
                 </div>
 
                 <div className="content-box">
                     <h4>Redes Sociais</h4>
                     <span>
-                        <FaInstagram />
+                        <a href="https://www.instagram.com/betwcodes?igsh=a2Vwdm10bzRiMWpp">
+                            <FaInstagram />
+                        </a>
                     </span>
                     <span>
-                        <FaWhatsapp />
+                        <a href="https://api.whatsapp.com/send?phone=5581997122632" target='blank'>
+                            <FaWhatsapp />
+                        </a>
                     </span>
                 </div>
             </div>
